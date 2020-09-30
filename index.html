@@ -1,279 +1,298 @@
-
 <!doctype html>
 <html lang="en">
+
 <head>
-    <!-- Required meta tags -->
-    <title>TomskSoft LLC – Software Development Company</title>
-    <meta name="description" content="Learn general information about Tomsk Inc., a software development company.">
-    <meta name="keywords" content="software development, outsourcing, cloud solutions, mobile development, web development, solution development, web design, web solutions, internet applications, RIAA, network">
-    <meta name="csrf-token" content="HcroSUZB7VFYw9ItBNmgqx1gb1vHP97x1o96puPF">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- Required meta tags -->
+  <title>TomskSoft LLC – Software Development Company</title>
+  <meta name="description" content="Learn general information about Tomsk Inc., a software development company.">
+  <meta name="keywords"
+    content="software development, outsourcing, cloud solutions, mobile development, web development, solution development, web design, web solutions, internet applications, RIAA, network">
+  <meta name="csrf-token" content="HcroSUZB7VFYw9ItBNmgqx1gb1vHP97x1o96puPF">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <link rel="icon" href="template/second/img/favicone.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="template/second/css/bootstrap.min.css">
-    <link rel="stylesheet" href="template/second/css/font-awesome.min.css">
-    <link rel="stylesheet" href="template/second/css/animate.min.css">
-    <link rel="stylesheet" href="template/second/css/menumaker.css">
-    <link rel="stylesheet" href="template/second/css/style.css">
+  <link rel="icon" href="template/second/img/favicone.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="template/second/css/bootstrap.min.css">
+  <link rel="stylesheet" href="template/second/css/font-awesome.min.css">
+  <link rel="stylesheet" href="template/second/css/animate.min.css">
+  <link rel="stylesheet" href="template/second/css/menumaker.css">
+  <link rel="stylesheet" href="template/second/css/style.css">
+  <link rel="stylesheet" href="./css/template/reset.css">
+  <link rel="stylesheet" href="./css/template/template.css">
 
-    </head>
+  <script src="./js/template/library.js"></script>
+  <script src="./js/template/template.js"></script>
+
+  <link rel="stylesheet" href="./css/services.css">
+</head>
+
 <body class="js">
-    <div id="prealoader"></div>
+  <div id="prealoader"></div>
 
-    <link rel="stylesheet" href="css/template/template.css">
+  <!-- <link rel="stylesheet" href="css/template/template.css">
 
-<script src="js/template/library.js"></script>
-<script src="js/template/template.js"></script>
+  <script src="js/template/library.js"></script>
+  <script src="js/template/template.js"></script> -->
 
-<div id="header-wrapper">
+  <div id="header-wrapper">
     <div id="header">
-        <div id="menu">
-            <div id="menu-sandwich" tabindex="-1">Menu<span></span></div>
-            <a id="menu-logo" href></a>
-            <ul id="menu-list">
-                <li data-key="home"><a href>Home</a></li>
-                <li data-key="workflow"><a href="workflow.html">Workflow</a></li>
-                <li data-key="services">
-                    <span>Services</span>
-                    <div>
-                        <span data-key="services/web-app-development"><a href="services/web-app-development/">Web App Development</a></span>
-                    </div>
-                </li>
-                <li data-key="technologies"><a href="technologies.html">Technologies</a></li>
-                <li data-key="projects"><a href="projects.html">Projects</a></li>
-                <li data-key="contact"><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
+      <div id="menu">
+        <div id="menu-sandwich" tabindex="-1">Menu<span></span></div>
+        <a id="menu-logo" href="/index.html"></a>
+        <ul id="menu-list">
+          <li data-key="home"><a href="/index.html">Home</a></li>
+          <li data-key="workflow"><a href="/workflow.html">Workflow</a></li>
+          <li data-key="services" class="active">
+            <span>Services</span>
+            <div>
+              <span data-key="services/web-app-development" class="active"><a href="/services/web-app-development">Web
+                  App Development</a></span>
+            </div>
+          </li>
+          <li data-key="technologies"><a href="/technologies.html">Technologies</a></li>
+          <li data-key="projects"><a href="/projects.html">Projects</a></li>
+          <li data-key="contact"><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
-</div>
+  </div>
 
-<script>
+  <script>
     var header = {
-        active_key: (function() {
-            if ('1') {
-                return 'home';
-            } else if ('') {
-                return 'workflow';
-            } else if ('') {
-                return 'services/web-app-development';
-            } else if ('') {
-                return 'technologies';
-            } else if ('') {
-                return 'projects';
-            } else if ('') {
-                return 'contact';
-            }
-            return '';
-        })()
+      active_key: (function () {
+        if ('1') {
+          return 'home';
+        } else if ('') {
+          return 'workflow';
+        } else if ('') {
+          return 'services/web-app-development';
+        } else if ('') {
+          return 'technologies';
+        } else if ('') {
+          return 'projects';
+        } else if ('') {
+          return 'contact';
+        }
+        return '';
+      })()
     };
-</script>
+  </script>
 
-<style>
+  <style>
     #content {
-        padding-top: 0;
+      padding-top: 0;
     }
+
     #header {
-        max-width: 1150px;
+      max-width: 1150px;
     }
+
     .page-header-area {
-        margin-top: 100px;
+      margin-top: 100px;
     }
-</style>
-    <!-- start page header area -->
-    <section class="page-header-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="page-header-title">
-                            <h1>TomskSoft LLC is a software development company</h1>
-    <h2>We specialize in complex mid-scale to large-scale projects</h2>
-                    </div>
-                </div>
-            </div>
+  </style>
+  <!-- start page header area -->
+  <section class="page-header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header-title">
+            <h1>TomskSoft LLC is a software development company</h1>
+            <h2>We specialize in complex mid-scale to large-scale projects</h2>
+          </div>
         </div>
-    </section>
-    <!-- end page header area -->
-
-        <!-- start our services section -->
-    <section class="why-choose-us-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-title aniview slow" data-av-animation="fadeIn">
-                        <h2>Our Services</h2>
-                    </div>
-                    <div class="row our-services">
-                        <div>
-                            <div class="single-why-choose aniview fast" data-av-animation="fadeIn">
-                                <div class="our-services-icon multimedias"></div>
-                                <p>Scalable Realtime Multimedia Streaming and Cloud Solutions</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="single-why-choose aniview slow" data-av-animation="fadeIn">
-                                <div class="our-services-icon utilities"></div>
-                                <p>Cross-platform Network Tools and Utilities</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
-                                <div class="our-services-icon support"></div>
-                                <p>Comprehensive Support, Monitoring and Maintenance</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
-                                <div class="our-services-icon mobile"></div>
-                                <p>Mobile Applications and Services</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
-                                <div class="our-services-icon process"></div>
-                                <p>Complex e-Commerce with DRM and Logistics Processing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end our services section -->
-
-    <!-- start working with customers section -->
-    <section class="call-to-action-area aniview fast" data-av-animation="fadeIn">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="aniview fast working" data-av-animation="fadeIn">
-                        <div id="customers">
-                            <h2>HOW WE WORK WITH OUR CUSTOMERS</h2>
-                            <span>We work very closely with our customers making sure their business ideas are converted into sustainable solutions.<br>
-                                Despite our business processes are transparent, you don’t have to study them in detail to keep track of the events. We deliver detailed reports for every task, which includes weekly reports from Design, Development, QA and Support departments. We set realistic deadlines and stick to your budget and timelines.</span>
-                        </div>
-                        <div id="certificate">
-                            <img src="template/second/img/iso-ico.png" alt="Certificate">
-                            <span>TomskSoft LLC is ISO 9001:2015 certified. This ensures our quality management complies with ISO standards.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-auto d-flex justify-content-center">
-                    <a href="workflow.html" class="btn btn-warning">Learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end working with customers section -->
-
-    <!-- start technologies we are good at section -->
-    <section id="technologies-wrapper">
-        <div id="content-technologies">
-            <div id="content-technologies-info">
-                <h3>TECHNOLOGIES WE ARE GOOD AT:</h3>
-                <ul>
-			<li><span>Network Development</span></li>
-			<li><span>Application Development</span></li>
-			<li><span>Mobile development</span></li>
-			<li><span>Web Development</span></li>
-
-                </ul>
-                <ul>
-			<li><span>Machine Learning</span></li>
-			<li><span>CI/Build/Package manager</span></li>
-			<li><span>Design</span></li>
-			<li><span>DevOps/Sysadmin</span></li>
-                </ul>
-                <a href="technologies.html" class="btn btn-warning">Learn more <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </section>
-    <!-- end technologies we are good at section -->
-
-    <!-- start our services section -->
-    <section class="why-choose-us-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-title aniview slow" data-av-animation="fadeIn">
-                        <h2>Our Expertise</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row our-expertise">
-                <div class="col-md-3">
-                    <div class="single-why-choose aniview fast" data-av-animation="fadeIn">
-                        <div class="our-services-icon development"></div>
-                        <p>Architectural design and Development</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="single-why-choose aniview slow" data-av-animation="fadeIn">
-                        <div class="our-services-icon design"></div>
-                        <p>Web and GUI Design</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
-                        <div class="our-services-icon qa"></div>
-                        <p>QA (automated testing)</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
-                        <div class="our-services-icon administration"></div>
-                        <p>System Administration (maintenance, support, monitoring)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end our services section -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32275629-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-32275629-1');
-</script>
-
-<!-- start copyright section -->
-    <div class="copyright-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="logo">
-                        <a href><img src="template/second/img/logo.png" alt="Tomsk LLC logo"></a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <ul class="topbar-information">
-                        <li><img src="template/second/img/blue-business-email.png" alt="business-email"></li>
-                        <li><img src="template/second/img/blue-tech-email.png" alt="technical-email"></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <span class="copyright ">2020 &#169; TomskSoft LLC</span>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- end copyright section -->
-    <script src="template/second/js/jquery-3.3.1.min.js"></script>
-    <script src="template/second/js/popper.min.js"></script>
-    <script src="template/second/js/bootstrap.min.js"></script>
-    <script src="template/second/js/jquery.aniview.js"></script>
-    <script src="template/second/js/menumaker.js"></script>
-    <script src="template/second/js/owl.carousel.min.js"></script>
-    <script src="template/second/js/custom.js"></script>
-    <script src="template/second/js/template.js"></script>
+  </section>
+  <!-- end page header area -->
 
-    
+  <!-- start our services section -->
+  <section class="why-choose-us-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title aniview slow" data-av-animation="fadeIn">
+            <h2>Our Services</h2>
+          </div>
+          <div class="row our-services">
+            <div>
+              <div class="single-why-choose aniview fast" data-av-animation="fadeIn">
+                <div class="our-services-icon multimedias"></div>
+                <p>Scalable Realtime Multimedia Streaming and Cloud Solutions</p>
+              </div>
+            </div>
+            <div>
+              <div class="single-why-choose aniview slow" data-av-animation="fadeIn">
+                <div class="our-services-icon utilities"></div>
+                <p>Cross-platform Network Tools and Utilities</p>
+              </div>
+            </div>
+            <div>
+              <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
+                <div class="our-services-icon support"></div>
+                <p>Comprehensive Support, Monitoring and Maintenance</p>
+              </div>
+            </div>
+            <div>
+              <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
+                <div class="our-services-icon mobile"></div>
+                <p>Mobile Applications and Services</p>
+              </div>
+            </div>
+            <div>
+              <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
+                <div class="our-services-icon process"></div>
+                <p>Complex e-Commerce with DRM and Logistics Processing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end our services section -->
+
+  <!-- start working with customers section -->
+  <section class="call-to-action-area aniview fast" data-av-animation="fadeIn">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aniview fast working" data-av-animation="fadeIn">
+            <div id="customers">
+              <h2>HOW WE WORK WITH OUR CUSTOMERS</h2>
+              <span>We work very closely with our customers making sure their business ideas are converted into
+                sustainable solutions.<br>
+                Despite our business processes are transparent, you don’t have to study them in detail to keep track of
+                the events. We deliver detailed reports for every task, which includes weekly reports from Design,
+                Development, QA and Support departments. We set realistic deadlines and stick to your budget and
+                timelines.</span>
+            </div>
+            <div id="certificate">
+              <img src="template/second/img/iso-ico.png" alt="Certificate">
+              <span>TomskSoft LLC is ISO 9001:2015 certified. This ensures our quality management complies with ISO
+                standards.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-auto d-flex justify-content-center">
+          <a href="workflow.html" class="btn btn-warning">Learn more <i class="fa fa-long-arrow-right"
+              aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end working with customers section -->
+
+  <!-- start technologies we are good at section -->
+  <section id="technologies-wrapper">
+    <div id="content-technologies">
+      <div id="content-technologies-info">
+        <h3>TECHNOLOGIES WE ARE GOOD AT:</h3>
+        <ul>
+          <li><span>Network Development</span></li>
+          <li><span>Application Development</span></li>
+          <li><span>Mobile development</span></li>
+          <li><span>Web Development</span></li>
+
+        </ul>
+        <ul>
+          <li><span>Machine Learning</span></li>
+          <li><span>CI/Build/Package manager</span></li>
+          <li><span>Design</span></li>
+          <li><span>DevOps/Sysadmin</span></li>
+        </ul>
+        <a href="technologies.html" class="btn btn-warning">Learn more <i class="fa fa-long-arrow-right"
+            aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- end technologies we are good at section -->
+
+  <!-- start our services section -->
+  <section class="why-choose-us-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title aniview slow" data-av-animation="fadeIn">
+            <h2>Our Expertise</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row our-expertise">
+        <div class="col-md-3">
+          <div class="single-why-choose aniview fast" data-av-animation="fadeIn">
+            <div class="our-services-icon development"></div>
+            <p>Architectural design and Development</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="single-why-choose aniview slow" data-av-animation="fadeIn">
+            <div class="our-services-icon design"></div>
+            <p>Web and GUI Design</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
+            <div class="our-services-icon qa"></div>
+            <p>QA (automated testing)</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="single-why-choose aniview reallyslow" data-av-animation="fadeIn">
+            <div class="our-services-icon administration"></div>
+            <p>System Administration (maintenance, support, monitoring)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end our services section -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-32275629-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-32275629-1');
+  </script>
+
+  <!-- start copyright section -->
+  <div class="copyright-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="logo">
+            <a href><img src="template/second/img/logo.png" alt="Tomsk LLC logo"></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul class="topbar-information">
+            <li><img src="template/second/img/blue-business-email.png" alt="business-email"></li>
+            <li><img src="template/second/img/blue-tech-email.png" alt="technical-email"></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <span class="copyright ">2020 &#169; TomskSoft LLC</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end copyright section -->
+  <script src="template/second/js/jquery-3.3.1.min.js"></script>
+  <script src="template/second/js/popper.min.js"></script>
+  <script src="template/second/js/bootstrap.min.js"></script>
+  <script src="template/second/js/jquery.aniview.js"></script>
+  <script src="template/second/js/menumaker.js"></script>
+  <script src="template/second/js/owl.carousel.min.js"></script>
+  <script src="template/second/js/custom.js"></script>
+  <script src="template/second/js/template.js"></script>
+
+
 </body>
+
 </html>
