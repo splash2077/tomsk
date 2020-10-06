@@ -40,6 +40,14 @@ h2 {
 
 .carousel {
   position: relative;
+    width: 50%;
+    left: -40px;
+    overflow: hidden;
+    /* transform: skew(-30deg, 0);
+    -webkit-transform: skew(-30deg, 0);
+    transform-origin: bottom left;
+    -webkit-transform-origin: bottom left; */
+  position: relative;
   /* left: 400px; */
   max-height: 800px;
   height: 800px;
