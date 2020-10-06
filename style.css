@@ -26,6 +26,11 @@ section > div {
   max-width: 1200px;
 }
 
+section:not(:first-of-type) {
+  padding-top: 135px;
+  padding-bottom: 160px;
+}
+
 h2 {
   font-size: 42px;
   font-family: 'Roboto', Arial, sans-serif;
@@ -40,16 +45,18 @@ h2 {
 
 .carousel {
   position: relative;
-    width: 50%;
-    left: -40px;
-    overflow: hidden;
-    /* transform: skew(-30deg, 0);
-    -webkit-transform: skew(-30deg, 0);
-    transform-origin: bottom left;
-    -webkit-transform-origin: bottom left; */
+  width: 50%;
+  left: 240px;
+  overflow: hidden;
   position: relative;
-  /* left: 400px; */
-  max-height: 800px;
-  height: 800px;
+  /* max-height: 800px;
+  height: 800px; */
   width:  100%;
+}
+
+.btn-custom {
+  background: #54A1FA !important;
+  border-color: #54A1FA !important;
+  border-radius: 56px !important;
+  color: white;
 }
