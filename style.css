@@ -3,9 +3,21 @@
   background-color: #F2F2F2;
 }
 
+.goodat {
+  background-color: #F2F2F2;
+}
+
+.positions {
+  background-color: #F2F2F2;
+}
+
 .services > div > .row:not(:first-child) > div > div {
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
   height: 100%;
+}
+
+section > div {
+  max-width: 1200px;
 }
