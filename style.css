@@ -33,3 +33,15 @@ h2 {
   color: #000;
   text-align: center;
 }
+
+.carousel-inner {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.carousel {
+  position: relative;
+  /* left: 400px; */
+  max-height: 800px;
+  height: 800px;
+  width:  100%;
+}
