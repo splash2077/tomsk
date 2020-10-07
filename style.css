@@ -35,6 +35,14 @@ section:not(:first-of-type) {
   padding-bottom: 160px;
 }
 
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+}
+
 h2 {
   font-size: 42px;
   font-family: 'Roboto', Arial, sans-serif;
@@ -48,15 +56,31 @@ section .row p {
   font-size: 24px;
   line-height: 1.5;
 }
-
+@media (min-width: 992px) {
 .carousel-inner {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+  .carousel {
+    left: 100px;
+  }
+} 
+
+@media (max-width: 1280px) {
+  section:first-of-type .row > div:first-of-type {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  section:first-of-type .row > div:first-of-type {
+    padding-top: 200px;
+  }
 }
 
 .carousel {
   position: relative;
   width: 50%;
-  left: 100px;
+  
   overflow: hidden;
   position: relative;
   /* max-height: 800px;
@@ -64,6 +88,9 @@ section .row p {
   width:  100%;
 }
 
+.carousel-item img {
+  min-height: 600px;
+}
 .btn-custom {
   background: #54A1FA !important;
   border-color: #54A1FA !important;
