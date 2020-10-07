@@ -22,11 +22,11 @@ body {
   height: 100%;
 }
 
-section > div {
+section:not(:first-of-type) > div {
   max-width: 1200px;
 }
 
-section > div > .row:first-of-type {
+section:not(:first-of-type) > div > .row:first-of-type {
   margin-bottom: 90px;
 }
 
@@ -56,7 +56,7 @@ section .row p {
 .carousel {
   position: relative;
   width: 50%;
-  left: 240px;
+  left: 100px;
   overflow: hidden;
   position: relative;
   /* max-height: 800px;
