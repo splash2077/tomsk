@@ -1,5 +1,5 @@
 body {
-  font-size: 18px;
+  font-size: 16px;
   overflow-x: hidden;
 }
 
@@ -55,7 +55,11 @@ h3 {
 }
 
 section.approaches div p {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.approaches .row:first-of-type p {
+  font-size: 24px;
 }
 
 .positions {
