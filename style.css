@@ -90,7 +90,7 @@ section .row p {
 }
 
 .carousel-item img {
-  min-height: 600px;
+  min-height: 800px;
 }
 .btn-custom {
   background: #54A1FA !important;
