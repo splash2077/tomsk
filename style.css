@@ -45,6 +45,15 @@ h3 {
   background-color: #F2F2F2;
 }
 
+.goodat .row:not(:first-child) p {
+  font-size: 20px;
+  line-height: 1.35;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 55px;
+}
+
 .positions {
   background-color: #F2F2F2;
 }
