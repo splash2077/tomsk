@@ -3,9 +3,42 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+h2 {
+  font-size: 42px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 .services {
   /* font-size: 16px; */
   background-color: #F2F2F2;
+}
+
+.services .row.cards > div > div {
+  padding: 30px 30px 40px;
+}
+
+.services .row.cards p {
+  font-size: 16px;
+}
+
+.services img {
+  margin-bottom: 85px;
 }
 
 .goodat {
@@ -34,23 +67,6 @@ section:not(:first-of-type) > div > .row:first-of-type {
 section:not(:first-of-type) {
   padding-top: 135px;
   padding-bottom: 160px;
-}
-
-h1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
-}
-
-h2 {
-  font-size: 42px;
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 700;
-  color: #000;
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 section .row p {
