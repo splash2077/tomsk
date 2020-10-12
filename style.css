@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-family: Roboto;
+  font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -24,12 +24,21 @@ h3 {
   font-size: 20px;
 }
 
+div div p.description {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  color: #000;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
 .intro p {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: 'Roboto', Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
+  color: #000;
 }
 
 .intro p.clients {
@@ -109,16 +118,80 @@ h3 {
   background-color: #F2F2F2;
 }
 
+.services .cards > div {
+  /* height: 505px; */
+  padding: 0px 20px 0px 20px;
+}
+
+.services .cards {
+  margin-bottom: 40px;
+}
+
 .services .row.cards > div > div {
   padding: 30px 30px 40px;
 }
 
+.services h3 {
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #000;
+}
+
 .services .row.cards p {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.55;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 22px;
+}
+
+.divider {
+  width: 500px;
+  margin-top: 60px;
 }
 
 .services img {
   margin-bottom: 85px;
+}
+
+section h2 {
+  margin-top: 42px;
+}
+
+section.approaches div .row p {
+  font-size: 20px;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.approaches button {
+  margin-top: 70px;
+  width: 200px;
+  height: 60px;
+  background: #54A1FA;
+  border-radius: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+
+text-align: center;
+text-transform: uppercase;
+}
+
+section.approaches div p {
+  font-size: 16px;
+}
+
+.approaches .row:first-of-type p {
+  font-size: 24px;
 }
 
 .goodat {
@@ -134,16 +207,30 @@ h3 {
   margin-bottom: 55px;
 }
 
-section.approaches div p {
-  font-size: 16px;
+.goodat h2 {
+  margin-bottom: 0px;
 }
 
-.approaches .row:first-of-type p {
-  font-size: 24px;
+.partners p{
+  text-align: center;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+  color: #000;
 }
 
 .positions {
   background-color: #F2F2F2;
+}
+
+.positions p{
+  text-align: center;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+body .positions {
+  font-size: 20px;
 }
 
 .services > div > .row:not(:first-child) > div > div {
@@ -166,14 +253,29 @@ section:not(:first-of-type) {
   padding-bottom: 160px;
 }
 
-section .row p {
+section:not(.intro) .row p {
   font-size: 24px;
   line-height: 1.5;
 }
 
-.btn-custom {
-  background: #54A1FA !important;
-  border-color: #54A1FA !important;
-  border-radius: 56px !important;
-  color: white;
+#menu {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  /* display: block; */
+  font-weight: 300;
+  line-height: 1;
+  vertical-align: baseline;
+  /* font-family: Roboto, Arial, sans-serif; */
+  margin-left: 6px;
 }
