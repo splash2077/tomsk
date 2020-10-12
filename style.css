@@ -279,3 +279,31 @@ section:not(.intro) .row p {
   /* font-family: Roboto, Arial, sans-serif; */
   margin-left: 6px;
 }
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.positions .card-header button {
+  padding-right: 30px;
+
+  font-size: 24px;
+  line-height: 1.35;
+
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.positions .collapse {
+  font-size: 16px;
+  line-height: 1.55;
+  padding: 0 30px 30px;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+  color: #000;
+}
