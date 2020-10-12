@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  /* font-size: 16px; */
   overflow-x: hidden;
 }
 
@@ -23,6 +23,86 @@ h2 {
 h3 {
   font-size: 20px;
 }
+
+.intro p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.intro p.clients {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #B0B0B0;
+}
+
+.intro .row .row:first-of-type div:not(:last-of-type) {
+  margin-bottom: 40px;
+}
+
+.intro button {
+  height: 60px;
+  width: 200px;
+  background: #54A1FA;
+  border-radius: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.intro .row .row:first-of-type {
+  margin-bottom: 150px;
+}
+
+.intro .row .row:last-of-type {
+  margin-bottom: 60px;
+}
+
+.carousel-item img {
+  min-height: 800px;
+}
+
+@media (min-width: 992px) {
+  .carousel-inner {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+    .carousel {
+      left: 100px;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    section:first-of-type > div > div .row:first-of-type > div:first-of-type {
+      padding-top: 100px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    section:first-of-type > div > div .row:first-of-type > div:first-of-type {
+      padding-top: 200px;
+    }
+  }
+  
+  .carousel {
+    position: relative;
+    width: 50%;
+    
+    overflow: hidden;
+    position: relative;
+    /* max-height: 800px;
+    height: 800px; */
+    width:  100%;
+  }
 
 .services {
   /* font-size: 16px; */
@@ -73,7 +153,7 @@ section.approaches div p {
   height: 100%;
 }
 
-section:not(:first-of-type) > div {
+section > div {
   max-width: 1200px;
 }
 
@@ -90,41 +170,7 @@ section .row p {
   font-size: 24px;
   line-height: 1.5;
 }
-@media (min-width: 992px) {
-.carousel-inner {
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-}
-  .carousel {
-    left: 100px;
-  }
-} 
 
-@media (max-width: 1280px) {
-  section:first-of-type > div > div .row > div:first-of-type {
-    padding-top: 100px;
-  }
-}
-
-@media (min-width: 1280px) {
-  section:first-of-type > div > div .row > div:first-of-type {
-    padding-top: 200px;
-  }
-}
-
-.carousel {
-  position: relative;
-  width: 50%;
-  
-  overflow: hidden;
-  position: relative;
-  /* max-height: 800px;
-  height: 800px; */
-  width:  100%;
-}
-
-.carousel-item img {
-  min-height: 800px;
-}
 .btn-custom {
   background: #54A1FA !important;
   border-color: #54A1FA !important;

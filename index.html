@@ -13,21 +13,27 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
   <link rel="icon" href="template/second/img/favicone.png" type="image/gif" sizes="16x16">
-  <!-- <link rel="stylesheet" href="./css/template/reset.css"> -->
+  <link rel="stylesheet" href="./css/template/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./css/template/template.css">
+
+  <!-- <script src="js/library.js"></script>
+  <script src="js/template.js"></script> -->
+
+
   <link rel="stylesheet" href="./css/services.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="js">
+<body>
   <header id="header-wrapper">
     <div id="header">
       <div id="menu">
-        <div id="menu-sandwich" tabindex="-1">Menu<span></span></div>
         <a id="menu-logo" href="/index.html"></a>
+        <div id="menu-sandwich" tabindex="-1">Menu<span></span></div>
+
         <ul id="menu-list">
           <li data-key="home"><a href="/index.html">Home</a></li>
           <li data-key="workflow"><a href="/workflow.html">Workflow</a></li>
@@ -45,16 +51,20 @@
       </div>
     </div>
   </header>
-  <section>
+  <section class="intro">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-lg-6 ">
           <div class="row justify-content-end">
-            <div class="col-12 col-lg-10 mb-4">
+            <div class="col-12 col-lg-10">
               <h1>TomskSoft LLC Is a Software Development Company</h1>
             </div>
-            <div class="col-12 col-lg-10 mb-4">We design and build secure, custom software<br />
-              for companies that need to scale.</div>
+            <div class="col-12 col-lg-10">
+              <p>
+                We design and build secure, custom software<br />
+                for companies that need to scale.
+              </p>
+            </div>
             <div class="col-12 col-lg-10">
               <button class="btn btn-primary btn-custom">CONTACT US</button>
             </div>
@@ -62,16 +72,7 @@
           <div class="row">
             <div class="col-12 col-lg-2 align-self-end"></div>
             <div class="col-12 col-lg-8 align-self-end">
-              <p style="font-family: Montserrat;
-              font-style: normal;
-              font-weight: 600;
-              font-size: 12px;
-              line-height: 24px;
-              /* identical to box height, or 200% */
-              
-              text-transform: uppercase;
-              
-              color: #B0B0B0;">FEATURED CLIENTS</p>
+              <p class="clients">FEATURED CLIENTS</p>
               <div>
                 <img src="visicom_logo.svg" style="width:100px; height: 50px;" alt="visicom logo">
                 <img src="paltalk_logo.svg" style="width:100px; height: 50px;" alt="paltalk logo">
@@ -261,7 +262,7 @@
   <section class="approaches">
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <img src="approaches_icon.svg" alt="approaches icon"/>
+        <img src="approaches_icon.svg" alt="approaches icon" />
         <div class="col-12">
           <div class="row justify-content-center">
             <div class="col-4">
