@@ -33,15 +33,31 @@ div div p.description {
   text-align: center;
 }
 
-.intro p {
+#intro 
+  *, ::after, ::before {
+    box-sizing: content-box;
+}
+
+@media screen and (max-width: 960px) {
+  #intro-text {
+      width: 100%;
+      max-width: 640px;
+      padding: 90px 20px 85px;
+      margin: 0;
+  }
+}
+
+
+#intro #intro-text > p {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
   color: #000;
+  margin-bottom: 40px;
 }
 
-.intro p.clients {
+#intro p.clients {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -51,11 +67,8 @@ div div p.description {
   color: #B0B0B0;
 }
 
-.intro .row .row:first-of-type div:not(:last-of-type) {
-  margin-bottom: 40px;
-}
 
-.intro button {
+#intro button {
   height: 60px;
   width: 200px;
   background: #54A1FA;
@@ -67,53 +80,78 @@ div div p.description {
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
-}
-
-.intro .row .row:first-of-type {
-  margin-bottom: 150px;
-}
-
-.intro .row .row:last-of-type {
-  margin-bottom: 60px;
-}
-
-@media (min-width: 992px) {
-  .carousel-inner {
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  }
-    .carousel {
-      left: 100px;
-    }
-  }
   
-  @media (max-width: 1280px) {
-    section:first-of-type > div > div .row:first-of-type > div:first-of-type {
-      padding-top: 100px;
-    }
-  }
-  
-  @media (min-width: 1280px) {
-    section:first-of-type > div > div .row:first-of-type > div:first-of-type {
-      padding-top: 200px;
-    }
-  }
+}
+
+#intro-text > div {
+  padding-top: 150px;
+}
+
 
 html,body{height:100%;}
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}
 .carousel-inner>.item>img {
     height:100%;
+    width: 100%;
 }
 
-.carousel-item img {
-  /* min-height: 800px; */
-  min-height: 600px;
-  height:  100%;
+.carousel {
+  position: relative;
+  width: 50%;
+  left: -40px;
+  overflow: hidden;
+  transform: skew(-30deg, 0);
+  -webkit-transform: skew(-30deg, 0);
+  transform-origin: bottom left;
+  -webkit-transform-origin: bottom left;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel {
+    position: static;
+    height: 640px;
+    width: 100%;
+    transform: skew(0deg, 0);
+  }
+}
+
+.carousel-inner {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-right: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transform: skew(30deg, 0);
+  -webkit-transform: skew(30deg, 0);
+  transform-origin: bottom left;
+  -webkit-transform-origin: bottom left;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel-inner {
+      padding: 0;
+      transform: skew(0deg, 0);
+  
+  }
+}
+
+.carousel img {
+  height: 100%;
 }
 
 .services {
   /* font-size: 16px; */
   background-color: #F2F2F2;
+}
+
+.services .description {
+  margin-bottom: 90px;
+
 }
 
 .services .cards > div {
@@ -234,7 +272,7 @@ section.approaches div p {
   margin-bottom: 0px;
 }
 
-.partners p{
+.partners p {
   text-align: center;
   font-family: 'Roboto',Arial,sans-serif;
   font-weight: 300;
@@ -263,7 +301,7 @@ body .positions {
   height: 100%;
 }
 
-section:not(:first-of-type) > div {
+section > div {
   max-width: 1200px;
 }
 
@@ -300,6 +338,13 @@ body {
   color: #000;
 }
 
+.positions .angle-down {
+  float: right;
+}
+.positions .angle-down:before {
+  content: "\f107";
+}
+
 .positions .collapse {
   font-size: 16px;
   line-height: 1.55;
@@ -308,3 +353,4 @@ body {
   font-weight: 300;
   color: #000;
 }
+
