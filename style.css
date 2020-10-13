@@ -77,10 +77,6 @@ div div p.description {
   margin-bottom: 60px;
 }
 
-.carousel-item img {
-  min-height: 800px;
-}
-
 @media (min-width: 992px) {
   .carousel-inner {
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -101,17 +97,22 @@ div div p.description {
       padding-top: 200px;
     }
   }
-  
-  .carousel {
-    position: relative;
-    width: 50%;
-    
-    overflow: hidden;
-    position: relative;
-    /* max-height: 800px;
-    height: 800px; */
-    width:  100%;
-  }
+
+/* html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.carousel-inner>.item>img {
+    height:100%;
+} */
+
+.carousel-item img {
+  min-height: 800px;
+  width: 100%;
+}
+
+.carousel {
+  /* position: absolute; */
+}
 
 .services {
   /* font-size: 16px; */
@@ -240,7 +241,7 @@ body .positions {
   height: 100%;
 }
 
-section > div {
+section:not(:first-of-type) > div {
   max-width: 1200px;
 }
 
