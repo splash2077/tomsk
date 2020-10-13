@@ -160,6 +160,11 @@ section h2 {
   margin-top: 42px;
 }
 
+body section.approaches {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
 section.approaches div .row p {
   font-size: 20px;
   font-family: 'Roboto',Arial,sans-serif;
@@ -168,8 +173,11 @@ section.approaches div .row p {
   text-align: center;
 }
 
+section.approaches div .row:not(:first-of-type) div > div {
+  margin-bottom: 70px;
+}
+
 .approaches button {
-  margin-top: 70px;
   width: 200px;
   height: 60px;
   background: #54A1FA;
@@ -179,9 +187,8 @@ section.approaches div .row p {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-
-text-align: center;
-text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 section.approaches div p {
@@ -254,28 +261,6 @@ section:not(:first-of-type) {
 section:not(.intro) .row p {
   font-size: 24px;
   line-height: 1.5;
-}
-
-#menu {
-  height: 100%;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-}
-
-#menu ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  /* display: block; */
-  font-weight: 300;
-  line-height: 1;
-  vertical-align: baseline;
-  /* font-family: Roboto, Arial, sans-serif; */
-  margin-left: 6px;
 }
 
 body {
