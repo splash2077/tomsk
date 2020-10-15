@@ -47,6 +47,12 @@ div div p.description {
   }
 }
 
+@media screen and (max-width:960px) {
+  .carousel .carousel-inner img {
+    height: auto;
+}
+}
+
 
 #intro #intro-text > p {
   font-family: 'Roboto', Arial, sans-serif;
@@ -341,9 +347,61 @@ body {
 .positions .angle-down {
   float: right;
 }
+
+.positions i.fas.fa-times-circle {
+  padding: 10px;
+  transform: rotate(45deg);
+}
+
+/* .positions div.css-square:hover {
+  background-color: black;
+  opacity: 0.2;
+  width: 140px;
+  height: 140px;
+  background: red; 
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+  border-radius: 70px;
+} */
+
+.accordion-content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.accordion-content > div > span {
+  display: block;
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  font-weight: 500;
+}
+
+.accordion-content > div > ul {
+  padding: 0 0 0 40px;
+}
+
+.accordion-content > div > ul > li {
+  list-style: circle;
+  color: #0083f1;
+}
+
+.accordion-content > div > ul > li > span {
+  color: #212529;
+}
+
+.positions .accordion-content {
+  width: 100%;
+  padding: 10px 30px 30px 10px;
+}
+
 .positions .fa-times-circle:before {
   content: url(cross.svg);
   transition: transform .5s ease-in-out;  
+  
+  transform:rotate(45deg);
 }
 
 /* .positions .collapsed .fa-times-circle:hover  {
@@ -360,6 +418,7 @@ body {
   -ms-transition: -ms-transform .5s ease-in-out;
   transition: transform .5s ease-in-out;  
 }
+
 .collapsed .css-square {
   transform:rotate(45deg);
   -ms-transform:rotate(45deg);
@@ -401,3 +460,4 @@ body {
   padding: 25px 30px;
 }
 
+@media
