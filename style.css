@@ -59,8 +59,8 @@ div div p.description {
 @media screen and (max-width: 960px) {
   #intro-text {
       width: 100%;
-      max-width: 640px;
-      padding: 90px 20px 85px;
+      /* max-width: 640px; */
+      padding: 90px 50px 20px;
       margin: 0;
   }
 }
@@ -135,7 +135,7 @@ html,body{height:100%;}
 @media screen and (max-width: 960px) {
   .carousel {
     position: static;
-    height: 640px;
+    height: 500px;
     width: 100%;
     transform: skew(0deg, 0);
   }
