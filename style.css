@@ -48,6 +48,10 @@ div div p.description {
     box-sizing: content-box;
 }
 
+#intro {
+  min-height: 750px;
+}
+
 .btn-primary {
   border-color: #54A1FA;
 }
@@ -63,6 +67,7 @@ div div p.description {
 
 @media screen and (max-width:960px) {
   .carousel .carousel-inner img {
+    width: 100%;
     height: auto;
   }
 }
