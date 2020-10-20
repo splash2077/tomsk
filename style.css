@@ -38,6 +38,10 @@ div div p.description {
     box-sizing: content-box;
 }
 
+#intro .btn {
+  border: 0px
+}
+
 @media screen and (max-width: 960px) {
   #intro-text {
       width: 100%;
