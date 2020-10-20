@@ -478,3 +478,25 @@ body {
 .positions .card-header {
   padding: 25px 30px;
 }
+
+/* Fading animation */
+.fadeMy {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+.mySlides {
+  height: 100%;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
