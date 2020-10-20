@@ -38,8 +38,8 @@ div div p.description {
     box-sizing: content-box;
 }
 
-#intro .btn {
-  border: 0px
+.btn-primary {
+  border-color: #54A1FA;
 }
 
 @media screen and (max-width: 960px) {
