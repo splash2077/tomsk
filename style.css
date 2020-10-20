@@ -64,7 +64,7 @@ div div p.description {
 @media screen and (max-width:960px) {
   .carousel .carousel-inner img {
     height: auto;
-}
+  }
 }
 
 
@@ -473,5 +473,3 @@ body {
 .positions .card-header {
   padding: 25px 30px;
 }
-
-@media
