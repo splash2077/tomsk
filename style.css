@@ -33,6 +33,16 @@ div div p.description {
   text-align: center;
 }
 
+#intro .vl {
+  /* display: inline-block; */
+  width: 1px;
+  height: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #E9E9E9;
+  border-radius: 22px;
+}
+
 #intro 
   *, ::after, ::before {
     box-sizing: content-box;
