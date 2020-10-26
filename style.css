@@ -304,6 +304,11 @@ section.approaches div p {
   color: #000;
 }
 
+.partners img {
+  max-width: 100%;
+  height: auto;
+}
+
 .positions {
   background-color: #F2F2F2;
 }
@@ -334,7 +339,7 @@ section:not(:first-of-type) > div > .row:first-of-type {
   margin-bottom: 90px;
 }
 
-section:not(:first-of-type) {
+section {
   padding-top: 135px;
   padding-bottom: 160px;
 }
