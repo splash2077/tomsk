@@ -49,7 +49,7 @@ div div p.description {
 }
 
 #intro {
-  min-height: 750px;
+  min-height: 650px;
 }
 
 .btn-primary {
@@ -112,6 +112,11 @@ div div p.description {
   padding-top: 150px;
 }
 
+@media screen and (max-width: 960px) {
+  #intro-text > div {
+    padding-top: 90px;
+  }
+}
 
 html,body{height:100%;}
 .carousel,.item,.active{height:100%;}
